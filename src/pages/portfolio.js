@@ -1,0 +1,111 @@
+import React, { useEffect, useState } from 'react';
+import Lightbox from 'react-image-lightbox';
+import "react-image-lightbox/style.css";
+
+import './portfolio.css';
+
+
+
+const arrOfImages = [
+  'sc1.png',
+  'sc2.png',
+  'sc3.png',
+  'sc4.png',
+  'sc5.png',
+  'sc6.png'
+];
+
+const Portfolio = props => {
+  let project_details=[
+    {title:'Super Chain (Dropshipping)',url:'https://dropship.super-chain.tech/',path:'assets/img/project1/sc1.png'},
+    {title:'Chimo Motel',url:'https://chimomotel.com/',path:'assets/img/project2/sc1.png'},
+    {title:'Shorin Kempo Karate',url:'https://shorinkempokarate.in/',path:'assets/img/project3/sc1.png'},
+    {title:'E-learning',url:'https://dropship.super-chain.tech/',path:'assets/img/project4/sc1.png'},
+    {title:'Gamit Dj-Remix',url:'https://www.gamitdjremix.in/',path:'assets/img/project5/sc1.png'},
+    {title:'Task Management System',url:'https://dropship.super-chain.tech/',path:'assets/img/project6/sc1.png'},
+   ];
+  const [indexOfImages, setIndexOfImages] = useState(0);
+  const [indexOfProject, setIndexofProject]= useState(0);
+  const [showModal, setShowModal] = useState(false);
+  const openModalAndSetIndex = (index) => {
+    setIndexOfImages(index);
+    setShowModal(true);
+    return;
+  };
+ 
+
+    return (
+      <section id="work" className="portfolio-mf sect-pt4 route">
+  <div className="container">
+    <div className="row">
+      <div className="col-sm-12">
+        <div className="title-box text-center">
+          <h3 className="title-a">
+            Portfolio
+          </h3>
+          {/* <p className="subtitle-a">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          </p> */}
+          <div className="line-mf" />
+        </div>
+      </div>
+    </div>
+   
+    <div className="row">
+    { project_details.map((val, index)=>(
+      <div key={index} className="col-md-4">
+        <div className="work-box">
+          <div>
+            <div className="work-img">
+              <img src={val.path} onClick={() => {setIndexofProject(index+1); setShowModal(true); }} alt="" className="img-fluid img-auto"/>
+            </div>
+          </div>
+          <div className="work-content">
+            <div className="row">
+              <div className="col-sm-8">
+                <h2 className="w-title">{val.title}</h2>
+                {/* <div className="w-more">
+                  <span className="w-ctegory">Web Design</span> / <span className="w-date">18 Sep. 2018</span>
+                </div> */}
+              </div>
+              <div className="col-sm-4">
+                <div className="w-like">
+                  <a target='_blank' href={val.url}> <span className="bi bi-plus-circle" /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> ))}
+    </div>
+  </div>
+  
+  {showModal && (
+        <Lightbox
+        enableZoom={false}
+          mainSrc={'assets/img/project'+indexOfProject+"/"+arrOfImages[indexOfImages]}
+          nextSrc={'assets/img/project'+indexOfProject+"/"+arrOfImages[(indexOfImages + 1) % arrOfImages.length]}
+          prevSrc={'assets/img/project'+indexOfProject+"/"+
+            arrOfImages[
+              (indexOfImages + arrOfImages.length - 1) % arrOfImages.length
+            ]
+          }
+          onCloseRequest={() => setShowModal(false)}
+          onMovePrevRequest={() =>
+            setIndexOfImages(
+              (indexOfImages + arrOfImages.length - 1) % arrOfImages.length
+            )
+          }
+          onMoveNextRequest={() =>
+            setIndexOfImages(
+              (indexOfImages + arrOfImages.length + 1) % arrOfImages.length
+            )
+          }
+        />
+      )}
+</section>
+
+    );
+};
+
+export default Portfolio;
