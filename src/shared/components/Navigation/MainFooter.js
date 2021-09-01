@@ -22,7 +22,7 @@ const MainFooter=props=>{
               <div className="copyright-box">
                 {/* <p className="copyright">&copy; Copyright <strong>Vismay Gamit</strong>. All Rights Reserved</p> */}
                 <div className="credits">
-                  Made by <a href="#"><strong>Vismay Gamit</strong></a>
+                  Developed by <a href="#"><strong>Vismay Gamit</strong></a>
                 </div>
               </div>
             </div>
