@@ -5,17 +5,17 @@ import "react-image-lightbox/style.css";
 import './portfolio.css';
 
 const arrOfImages = [
-  'sc1.PNG',
-  'sc2.PNG',
-  'sc3.PNG',
-  'sc4.PNG',
-  'sc5.PNG',
-  'sc6.PNG'
+  'sc1.png',
+  'sc2.png',
+  'sc3.png',
+  'sc4.png',
+  'sc5.png',
+  'sc6.png'
 ];
 
 const Portfolio = props => {
   let project_details=[
-    {title:'Super Chain (Dropshipping)',url:'https://dropship.super-chain.tech/',path:'assets/img/project1/sc1.PNG'},
+    {title:'Super Chain (Dropshipping)',url:'https://dropship.super-chain.tech/',path:'assets/img/project1/sc1.png'},
     {title:'Chimo Motel',url:'https://chimomotel.com/',path:'assets/img/project2/sc1.png'},
     {title:'Shorin Kempo Karate',url:'https://shorinkempokarate.in/',path:'assets/img/project3/sc1.png'},
     {title:'E-learning',url:'https://dropship.super-chain.tech/',path:'assets/img/project4/sc1.png'},
