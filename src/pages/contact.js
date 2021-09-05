@@ -7,11 +7,10 @@ const contact=props=>{
   <div className="container">
     <div className="row">
       <div className="col-sm-12">
-        <div className="contact-mf">
           <div id="contact" className="box-shadow-full">
             <div className="row">
-              {/* <div className="col-md-6">
-                <div className="title-box-2">
+              <div className="col-md-6">
+                {/* <div className="title-box-2">
                   <h5 className="title-left">
                     Send Message Us
                   </h5>
@@ -49,9 +48,10 @@ const contact=props=>{
                       </div>
                     </div>
                   </form>
-                </div>
-              </div> */}
-              <div className="col-md-12">
+                </div> */}
+              </div>
+              <div className="col-md-6"></div>
+              <div className="col-sm-12">
                 <div className="title-box-2 pt-4 pt-md-0">
                   <h5 className="title-left">
                     Get in Touch
@@ -82,7 +82,6 @@ const contact=props=>{
               </div>
             </div>
           </div>
-        </div>
       </div>
     </div>
   </div>
