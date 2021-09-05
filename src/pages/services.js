@@ -6,14 +6,13 @@ return (
   <div className="container">
     <div className="row">
       <div className="col-sm-12">
-        <div className="title-box text-center">
-          <h3 className="title-a">
-            Service
-          </h3>
+        <div className="title-box">
+          <h5 className="title-left">
+            Services
+          </h5>
           <p className="subtitle-a">
             {/* Lorem ipsum, dolor sit amet consectetur adipisicing elit. */}
           </p>
-          <div className="line-mf" />
         </div>
       </div>
     </div>

@@ -1,6 +1,6 @@
 import React from 'react';
 import ProgressBar from 'react-animated-progress-bar';
-
+import './about.css';
 const about=props=>{
 return (
 <section id="about" className="about-mf sect-pt4 route">

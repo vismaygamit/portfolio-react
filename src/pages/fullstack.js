@@ -2,7 +2,7 @@ import React from "react";
 import "./fullstack.css";
 const fullstack = (props) => {
   return (
-    <section id="about" className="about-mf sect-pt4 route">
+    <section id="tech" className="about-mf sect-pt4 route">
       <div className="container">
         <div className="row">
           <div className="col-sm-12">

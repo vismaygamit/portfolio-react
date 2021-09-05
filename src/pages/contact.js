@@ -66,7 +66,7 @@ const contact=props=>{
                   </p> */}
                   <ul className="list-ico">
                     <li><span className="bi bi-geo-alt" /> Not Available</li>
-                    <li><span className="bi bi-phone" /> (960) 155-0116</li>
+                    <li><span className="bi bi-phone" />+91 (960) 155-0116</li>
                     <li><span className="bi bi-envelope" /> vismaygamit16@gmail.com</li>
                   </ul>
                 </div>

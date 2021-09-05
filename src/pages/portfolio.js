@@ -4,8 +4,6 @@ import "react-image-lightbox/style.css";
 
 import './portfolio.css';
 
-
-
 const arrOfImages = [
   'sc1.png',
   'sc2.png',
@@ -39,14 +37,13 @@ const Portfolio = props => {
   <div className="container">
     <div className="row">
       <div className="col-sm-12">
-        <div className="title-box text-center">
-          <h3 className="title-a">
+        <div className="title-box">
+          <h3 className="title-left">
             Portfolio
           </h3>
           {/* <p className="subtitle-a">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit.
           </p> */}
-          <div className="line-mf" />
         </div>
       </div>
     </div>
@@ -82,7 +79,7 @@ const Portfolio = props => {
   
   {showModal && (
         <Lightbox
-        enableZoom={false}
+          // /style={{height:"100px"}}
           mainSrc={'assets/img/project'+indexOfProject+"/"+arrOfImages[indexOfImages]}
           nextSrc={'assets/img/project'+indexOfProject+"/"+arrOfImages[(indexOfImages + 1) % arrOfImages.length]}
           prevSrc={'assets/img/project'+indexOfProject+"/"+

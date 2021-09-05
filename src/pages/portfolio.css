@@ -2,6 +2,45 @@
     height: auto !important;
 }
 
-Lightbox{
-   height: 100px !important; 
+
+@media screen and (min-width: 300px) and (max-width: 768px) {
+    .ril__inner > img.ril-image-current {
+        height: 1000px !important;
+    width: 1905px !important;
+        /* transform: none !important; */
+    }
+    
+
 }
+
+/* Media Query for Laptops and Desktops */
+@media screen and (min-width: 769px) and (max-width: 1080px) {
+    .ril__inner > img.ril-image-current {
+        height: 800px !important;
+        width: 1500px !important;
+        margin-right: -678px;
+        /* transform: none !important; */
+    }
+    
+
+}
+
+@media only screen and (min-width: 1370px) and (max-width: 1605px) {
+    .ril__inner > img.ril-image-current {
+        height: 800px !important;
+        width: 1500px !important;
+        margin-right: -265px;
+        /* transform: none !important; */
+    }
+
+}
+
+@media only screen and (min-width: 1606px){
+    .ril__inner > img.ril-image-current {
+        height: 800px !important;
+        width: 1500px !important;
+        /* transform: none !important; */
+    }
+    
+}
+

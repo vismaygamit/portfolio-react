@@ -13,8 +13,8 @@ const main = props =>{
         <main id="main">
              <About />
 {/* <Skill/> */}
-        <Services />
         <Fullstack />
+        <Services />
         <Counter />
         <Portfolio />
         <Testimonials />
