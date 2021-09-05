@@ -18,9 +18,9 @@ const Portfolio = props => {
     {title:'Super Chain (Dropshipping)',url:'https://dropship.super-chain.tech/',path:'assets/img/project1/sc1.png'},
     {title:'Chimo Motel',url:'https://chimomotel.com/',path:'assets/img/project2/sc1.png'},
     {title:'Shorin Kempo Karate',url:'https://shorinkempokarate.in/',path:'assets/img/project3/sc1.png'},
-    {title:'E-learning',url:'https://dropship.super-chain.tech/',path:'assets/img/project4/sc1.png'},
+    {title:'E-learning',url:'https://youtu.be/2SNtHqf3aPQ',path:'assets/img/project4/sc1.png'},
     {title:'Gamit Dj-Remix',url:'https://www.gamitdjremix.in/',path:'assets/img/project5/sc1.png'},
-    {title:'Task Management System',url:'https://dropship.super-chain.tech/',path:'assets/img/project6/sc1.png'},
+    {title:'Task Management System',url:'https://youtu.be/jb7j_0qH8G4',path:'assets/img/project6/sc1.png'},
    ];
   const [indexOfImages, setIndexOfImages] = useState(0);
   const [indexOfProject, setIndexofProject]= useState(0);
