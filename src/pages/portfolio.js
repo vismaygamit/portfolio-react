@@ -5,12 +5,12 @@ import "react-image-lightbox/style.css";
 import './portfolio.css';
 
 const arrOfImages = [
-  'sc1.png',
-  'sc2.png',
-  'sc3.png',
-  'sc4.png',
-  'sc5.png',
-  'sc6.png'
+  'sc1.PNG',
+  'sc2.PNG',
+  'sc3.PNG',
+  'sc4.PNG',
+  'sc5.PNG',
+  'sc6.PNG'
 ];
 
 const Portfolio = props => {
