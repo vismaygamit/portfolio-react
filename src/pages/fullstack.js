@@ -13,7 +13,7 @@ const fullstack = (props) => {
               <div className="row">
                 <div className="col-md-5 box-shadow-full">
                   <img
-                    src="assets/img/front-end.PNG"
+                    src="assets/img/front-end.jpg"
                     className="img-fluid rounded b-shadow-a"
                     alt=""
                   />
@@ -78,7 +78,7 @@ const fullstack = (props) => {
                 <div className="col-md-2"></div>
                 <div className="col-md-5 box-shadow-full">
                   <img
-                    src="assets/img/back-end.PNG"
+                    src="assets/img/back-end.jpg"
                     className="img-fluid rounded b-shadow-a"
                     alt=""
                   />
