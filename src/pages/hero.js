@@ -15,7 +15,7 @@ const hero = (props) => {
             
             <p className="hero-subtitle">
             <Typed
-                    strings={['Full Stack Developer', 'Freelancer', 'Youtuber', 'Video Editor']}
+                    strings={['Full Stack Developer', 'Freelancer', 'Software Developer', 'Youtuber', 'Video Editor']}
                     typeSpeed={40}
                     backSpeed={50}
                     loop
