@@ -1,6 +1,16 @@
-import React from 'react';
-
+import * as React from 'react';
 const contact=props=>{
+
+  // eslint-disable-next-line react-hooks/rules-of-hooks
+  const [songType, setsongType] = React.useState('');
+  const handleChange = (event) => {
+    setsongType(event.target.value);
+    console.log(event.target.value);
+    
+  };
+
+  const defaultValue = ["Material UI", "Chips"];
+  const songOptions = ["Desi Mix", "Rodali", "Garba"];
     return (
        <section id="contact" className="paralax-mf footer-paralax bg-image sect-mt4 route" style={{backgroundImage: ` url(./assets/img/overlay-bg.jpg)` }}>
   <div className="overlay-mf" />
@@ -49,6 +59,26 @@ const contact=props=>{
                     </div>
                   </form>
                 </div> */}
+
+{/* <InputLabel  id="demo-simple-select-label">Age</InputLabel>
+                <Select defaultValue="--Select--" placeholder="--Select--" name="songTyp" variant="outlined" sx={{ mt: 2 }} value={songType} labelId="demo-simple-select-label" id="songTypes" label="SognType" onChange={handleChange}> */}
+                {/* <option
+                     
+                      value="--Select--"
+                    >
+                      --Select--
+                    </option> */}
+                  {/* {songOptions?.map((val, index) => ( */}
+                     {/* if(songOptions.length>0){ */}
+                     {/* <MenuItem */}
+                       {/* key={index}
+                       value={val}
+                     >
+                       {val}
+                     </MenuItem>
+                    }
+                   ))}
+                 </Select> */}
               </div>
               <div className="col-md-6"></div>
               <div className="col-sm-12">

@@ -62,6 +62,11 @@ const fullstack = (props) => {
                         className="h-50 img-fluid rounded techstack b-shadow-a"
                         alt=""
                       />
+                      <img
+                        src="assets/img/frontend/material.svg"
+                        className="h-50 img-fluid rounded techstack b-shadow-a"
+                        alt=""
+                      />
                     </span>
                   </div>
                   <div>
