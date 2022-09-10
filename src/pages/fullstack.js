@@ -67,6 +67,11 @@ const fullstack = (props) => {
                         className="h-50 img-fluid rounded techstack b-shadow-a"
                         alt=""
                       />
+                      <img
+                        src="assets/img/backend/next-js.svg"
+                        className="img-fluid rounded techstack b-shadow-a"
+                        alt=""
+                      />
                     </span>
                   </div>
                   <div>
@@ -107,13 +112,28 @@ const fullstack = (props) => {
                         className="h-50 img-fluid rounded techstack b-shadow-a"
                         alt=""
                       />
-                      <img
+                      {/* <img
                         src="assets/img/backend/wordpress.svg"
                         className="h-50 img-fluid rounded techstack b-shadow-a"
                         alt=""
-                      />
+                      /> */}
                       <img
                         src="assets/img/backend/codeigniter.svg"
+                        className="img-fluid rounded techstack b-shadow-a"
+                        alt=""
+                      />
+                      <img
+                        src="assets/img/backend/next-js.svg"
+                        className="img-fluid rounded techstack b-shadow-a"
+                        alt=""
+                      />
+                        <img
+                        src="assets/img/backend/solidity.svg"
+                        className="img-fluid rounded techstack b-shadow-a"
+                        alt=""
+                      />
+                      <img
+                        src="assets/img/backend/truffle.svg"
                         className="img-fluid rounded techstack b-shadow-a"
                         alt=""
                       />
