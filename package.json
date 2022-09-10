@@ -15,7 +15,6 @@
     "@types/react-transition-group": "^4.4.2",
     "bootstrap": "^5.0.2",
     "emailjs-com": "^3.2.0",
-    "heroku": "^7.59.0",
     "radium": "^0.26.1",
     "react": "^17.0.2",
     "react-animated-progress-bar": "^1.0.4",
