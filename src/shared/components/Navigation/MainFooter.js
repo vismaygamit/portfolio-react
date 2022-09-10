@@ -8,13 +8,13 @@ const MainFooter=props=>{
     tag.src = src;
     document.getElementsByTagName('body')[0].appendChild(tag);
   }
-  loadScript('./assets/vendor/bootstrap/js/bootstrap.bundle.min.js')
-  loadScript('./assets/vendor/glightbox/js/glightbox.min.js')
-  loadScript('./assets/vendor/php-email-form/validate.js')
-  loadScript('./assets/vendor/purecounter/purecounter.js')
-  loadScript('./assets/vendor/swiper/swiper-bundle.min.js')
-  loadScript('./assets/vendor/typed.js/typed.min.js')
-  loadScript('./assets/js/main.js')
+  // loadScript('./assets/vendor/bootstrap/js/bootstrap.bundle.min.js')
+  // loadScript('./assets/vendor/glightbox/js/glightbox.min.js')
+  // loadScript('./assets/vendor/php-email-form/validate.js')
+  // loadScript('./assets/vendor/purecounter/purecounter.js')
+  // loadScript('./assets/vendor/swiper/swiper-bundle.min.js')
+  // loadScript('./assets/vendor/typed.js/typed.min.js')
+  // loadScript('./assets/js/main.js')
     return ( <footer>
         <div className="container">
           <div className="row">

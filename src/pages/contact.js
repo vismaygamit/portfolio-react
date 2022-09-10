@@ -1,26 +1,19 @@
-import * as React from 'react';
-const contact=props=>{
-
-  // eslint-disable-next-line react-hooks/rules-of-hooks
-  const [songType, setsongType] = React.useState('');
-  const handleChange = (event) => {
-    setsongType(event.target.value);
-    console.log(event.target.value);
-    
-  };
-
-  const defaultValue = ["Material UI", "Chips"];
-  const songOptions = ["Desi Mix", "Rodali", "Garba"];
-    return (
-       <section id="contact" className="paralax-mf footer-paralax bg-image sect-mt4 route" style={{backgroundImage: ` url(./assets/img/overlay-bg.jpg)` }}>
-  <div className="overlay-mf" />
-  <div className="container">
-    <div className="row">
-      <div className="col-sm-12">
-          <div id="contact" className="box-shadow-full">
-            <div className="row">
-              <div className="col-md-6">
-                {/* <div className="title-box-2">
+import * as React from "react";
+const contact = (props) => {
+  return (
+    <section
+      id="contact"
+      className="paralax-mf footer-paralax bg-image sect-mt4 route"
+      style={{ backgroundImage: ` url(./assets/img/overlay-bg.jpg)` }}
+    >
+      <div className="overlay-mf" />
+      <div className="container">
+        <div className="row">
+          <div className="col-sm-12">
+            <div id="contact" className="box-shadow-full">
+              <div className="row">
+                <div className="col-md-6">
+                  {/* <div className="title-box-2">
                   <h5 className="title-left">
                     Send Message Us
                   </h5>
@@ -60,18 +53,18 @@ const contact=props=>{
                   </form>
                 </div> */}
 
-{/* <InputLabel  id="demo-simple-select-label">Age</InputLabel>
+                  {/* <InputLabel  id="demo-simple-select-label">Age</InputLabel>
                 <Select defaultValue="--Select--" placeholder="--Select--" name="songTyp" variant="outlined" sx={{ mt: 2 }} value={songType} labelId="demo-simple-select-label" id="songTypes" label="SognType" onChange={handleChange}> */}
-                {/* <option
+                  {/* <option
                      
                       value="--Select--"
                     >
                       --Select--
                     </option> */}
                   {/* {songOptions?.map((val, index) => ( */}
-                     {/* if(songOptions.length>0){ */}
-                     {/* <MenuItem */}
-                       {/* key={index}
+                  {/* if(songOptions.length>0){ */}
+                  {/* <MenuItem */}
+                  {/* key={index}
                        value={val}
                      >
                        {val}
@@ -79,44 +72,79 @@ const contact=props=>{
                     }
                    ))}
                  </Select> */}
-              </div>
-              <div className="col-md-6"></div>
-              <div className="col-sm-12">
-                <div className="title-box-2 pt-4 pt-md-0">
-                  <h5 className="title-left">
-                    Get in Touch
-                  </h5>
                 </div>
-                <div className="more-info">
-                  {/* <p className="lead">
+                <div className="col-md-6"></div>
+                <div className="col-sm-12">
+                  <div className="title-box-2 pt-4 pt-md-0">
+                    <h5 className="title-left">Get in Touch</h5>
+                  </div>
+                  <div className="more-info">
+                    {/* <p className="lead">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolorum dolorem soluta quidem
                     expedita aperiam aliquid at.
                     Totam magni ipsum suscipit amet? Autem nemo esse laboriosam ratione nobis
                     mollitia inventore?
                   </p> */}
-                  <ul className="list-ico">
-                    <li><span className="bi bi-geo-alt" /> Not Available</li>
-                    <li><span className="bi bi-phone" />+91 (960) 155-0116</li>
-                    <li><span className="bi bi-envelope" /> vismaygamit16@gmail.com</li>
-                  </ul>
-                </div>
-                <div className="socials">
-                  <ul>
-                    <li><a href="https://www.linkedin.com/in/vismay-gamit-284790121/"><span className="ico-circle"><i className="bi bi-linkedin" /></span></a></li>
-                    <li><a href="https://github.com/vismaygamit"><span className="ico-circle"><i className="bi bi-github" /></span></a></li>
-                    <li><a href="https://www.facebook.com/vismaygamit/"><span className="ico-circle"><i className="bi bi-facebook" /></span></a></li>
-                    <li><a href="https://www.instagram.com/vismaygamit/"><span className="ico-circle"><i className="bi bi-instagram" /></span></a></li>
-                    <li><a href="https://twitter.com/vismay_gamit"><span className="ico-circle"><i className="bi bi-twitter" /></span></a></li>
-                  </ul>
+                    <ul className="list-ico">
+                      <li>
+                        <span className="bi bi-geo-alt" /> Not Available
+                      </li>
+                      <li>
+                        <span className="bi bi-phone" />
+                        +91 (960) 155-0116
+                      </li>
+                      <li>
+                        <span className="bi bi-envelope" />{" "}
+                        vismaygamit16@gmail.com
+                      </li>
+                    </ul>
+                  </div>
+                  <div className="socials">
+                    <ul>
+                      <li>
+                        <a href="https://www.linkedin.com/in/vismay-gamit-284790121/">
+                          <span className="ico-circle">
+                            <i className="bi bi-linkedin" />
+                          </span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://github.com/vismaygamit">
+                          <span className="ico-circle">
+                            <i className="bi bi-github" />
+                          </span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.facebook.com/vismaygamit/">
+                          <span className="ico-circle">
+                            <i className="bi bi-facebook" />
+                          </span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.instagram.com/vismaygamit/">
+                          <span className="ico-circle">
+                            <i className="bi bi-instagram" />
+                          </span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://twitter.com/vismay_gamit">
+                          <span className="ico-circle">
+                            <i className="bi bi-twitter" />
+                          </span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
+        </div>
       </div>
-    </div>
-  </div>
-</section>
-
-    );
+    </section>
+  );
 };
 export default contact;
