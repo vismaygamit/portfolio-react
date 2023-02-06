@@ -103,6 +103,17 @@ const Portfolio = (props) => {
             </div>
           ))}
         </div>
+        <div className="row">
+          <div className="col-sm-12">
+            <div className="title-box">
+              {/* <h3 className="title-left">Portfolio</h3> */}
+              <p className="w-title">
+              <h4>Unfortunately, can't show all projects due to Non-Disclosure Agreement (NDA)</h4>
+          </p>
+            </div>
+          </div>
+        </div>
+
       </div>
 
       {showModal && (
