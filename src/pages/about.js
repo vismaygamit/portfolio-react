@@ -35,7 +35,7 @@ const about = (props) => {
                         </p>
                         <p>
                           <span className="title-s">Phone: </span>{" "}
-                          <span>+91 9601550***</span>
+                          <span>+91 9601550116</span>
                         </p>
                       </div>
                     </div>
