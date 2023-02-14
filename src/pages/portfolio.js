@@ -105,12 +105,12 @@ const Portfolio = (props) => {
         </div>
         <div className="row">
           <div className="col-sm-12">
-            <div className="title-box">
-              {/* <h3 className="title-left">Portfolio</h3> */}
-              <p className="w-title">
+            {/* <div className="title-box"> */}
+            {/* <h3 className="title-left">Portfolio</h3> */}
+            <p className="w-title">
               <h4>Unfortunately, can't show all projects due to Non-Disclosure Agreement (NDA)</h4>
-          </p>
-            </div>
+            </p>
+            {/* </div> */}
           </div>
         </div>
 
@@ -136,7 +136,7 @@ const Portfolio = (props) => {
             indexOfProject +
             "/" +
             arrOfImages[
-              (indexOfImages + arrOfImages.length - 1) % arrOfImages.length
+            (indexOfImages + arrOfImages.length - 1) % arrOfImages.length
             ]
           }
           onCloseRequest={() => setShowModal(false)}

@@ -103,7 +103,7 @@ const Pricing = () => {
     }, []);
 
     return (
-        <section id="package" className="package-mf sect-pt4 route mb-5">
+        <section id="package" className="package-mf sect-pt4 route mb-2">
             <div className="container">
                 <div className="row">
                     <div className="title-box-2 mx-auto">
@@ -131,6 +131,23 @@ const Pricing = () => {
                             </div>
                         )
                     })}
+                    {/* <div className="title-box-2 mx-auto">
+                        <h5 className="title-left">Not sure which Web Design Package to choose?</h5>
+                        <p>Send your requirements <a href="#contact">here</a> for the quotation.</p>
+                    </div> */}
+
+                </div>
+                <div className="row text-center align-items-end mt-5">
+                    <div className="col-sm-12">
+                            <p className="w-title">
+                                <h4>Not sure which Web Design Package to choose?</h4>
+                                <p>Send your requirements <a href="#contact">here</a> for the quotation.</p>
+                                {/* <h4>Unfortunately, can't show all projects due to Non-Disclosure Agreement (NDA)</h4> */}
+                            </p>
+                        {/* <div className="title-box">
+                            <h3 className="title-left">Portfolio</h3>
+                        </div> */}
+                    </div>
                 </div>
             </div>
         </section>
