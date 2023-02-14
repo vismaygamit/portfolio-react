@@ -6,6 +6,7 @@ import Portfolio from "./portfolio";
 import Testimonials from "./testimonials";
 import Contact from "./contact";
 import Fullstack from "./fullstack";
+import Pricing from "./pricing";
 
 const main = (props) => {
   return (
@@ -15,6 +16,7 @@ const main = (props) => {
       <Services />
       <Counter />
       <Portfolio />
+      <Pricing />
       <Testimonials />
       <Contact />
     </main>
