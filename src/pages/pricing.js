@@ -15,7 +15,7 @@ const Pricing = () => {
     let prices = [
         {
             package_name: "Standard Plan", price: pricesbyCountry[0], features: [
-                { feature: "6 pages", isAvailable: true },
+                { feature: "Upto 6 pages", isAvailable: true },
                 { feature: "1 Logo", isAvailable: true },
                 { feature: "Responsive", isAvailable: true },
                 { feature: "Gallery", isAvailable: true },
@@ -35,7 +35,7 @@ const Pricing = () => {
         },
         {
             package_name: "Premium Plan", price: pricesbyCountry[1], features: [
-                { feature: "12 pages", isAvailable: true },
+                { feature: "Upto 12 pages", isAvailable: true },
                 { feature: "1 Logo", isAvailable: true },
                 { feature: "Responsive", isAvailable: true },
                 { feature: "Gallery", isAvailable: true },
@@ -55,7 +55,7 @@ const Pricing = () => {
         },
         {
             package_name: "Pro Plan", price: pricesbyCountry[2], features: [
-                { feature: "18 pages", isAvailable: true },
+                { feature: "Upto 18 pages", isAvailable: true },
                 { feature: "1 Logo", isAvailable: true },
                 { feature: "Responsive", isAvailable: true },
                 { feature: "Gallery", isAvailable: true },
@@ -103,7 +103,7 @@ const Pricing = () => {
     }, []);
 
     return (
-        <section>
+        <section className="mb-5" id="package" className="package-mf sect-pt4 route">
             <div className="container">
                 <div className="row">
                     <div className="title-box-2 mx-auto">

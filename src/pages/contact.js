@@ -3,7 +3,7 @@ const contact = (props) => {
   return (
     <section
       id="contact"
-      className="paralax-mf footer-paralax bg-image sect-mt4 route"
+      className="contact-mf paralax-mf footer-paralax bg-image sect-mt4 route"
       style={{ backgroundImage: ` url(./assets/img/overlay-bg.jpg)` }}
     >
       <div className="overlay-mf" />
