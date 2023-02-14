@@ -103,7 +103,7 @@ const Pricing = () => {
     }, []);
 
     return (
-        <section className="mb-5" id="package" className="package-mf sect-pt4 route">
+        <section id="package" className="package-mf sect-pt4 route mb-5">
             <div className="container">
                 <div className="row">
                     <div className="title-box-2 mx-auto">
