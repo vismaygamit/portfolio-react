@@ -86,9 +86,9 @@ const contact = (props) => {
                     mollitia inventore?
                   </p> */}
                     <ul className="list-ico">
-                      <li>
+                      {/* <li>
                         <span className="bi bi-geo-alt" /> Not Available
-                      </li>
+                      </li> */}
                       <li>
                         <span className="bi bi-phone" />
                         <a href="tel:+919601550116">+91 (960) 155-0116</a>
