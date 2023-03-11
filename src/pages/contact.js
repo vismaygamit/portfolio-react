@@ -91,11 +91,12 @@ const contact = (props) => {
                       </li>
                       <li>
                         <span className="bi bi-phone" />
-                        +91 (960) 155-0116
+                        <a href="tel:+919601550116">+91 (960) 155-0116</a>
+                        
                       </li>
                       <li>
                         <span className="bi bi-envelope" />{" "}
-                        vismaygamit16@gmail.com
+                        <a href="mailto:vismaygamit16@gmail.com">vismaygamit16@gmail.com</a>
                       </li>
                     </ul>
                   </div>
@@ -133,6 +134,13 @@ const contact = (props) => {
                         <a href="https://twitter.com/vismay_gamit">
                           <span className="ico-circle">
                             <i className="bi bi-twitter" />
+                          </span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://wa.me/+919601550116">
+                          <span className="ico-circle">
+                            <i className="bi bi-whatsapp" />
                           </span>
                         </a>
                       </li>

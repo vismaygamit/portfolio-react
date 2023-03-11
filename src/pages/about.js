@@ -31,11 +31,11 @@ const about = (props) => {
                         </p>
                         <p>
                           <span className="title-s">Email: </span>{" "}
-                          <span>vismaygamit16@gmail.com</span>
+                          <span><a href="mailto:vismaygamit16@gmail.com">vismaygamit16@gmail.com</a></span>
                         </p>
                         <p>
                           <span className="title-s">Phone: </span>{" "}
-                          <span>+91 9601550116</span>
+                          <span><a href="tel:+919601550116">+91 9601550116</a></span>
                         </p>
                       </div>
                     </div>
