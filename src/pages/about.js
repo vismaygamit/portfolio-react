@@ -34,12 +34,12 @@ const about = (props) => {
                           <span><a href="mailto:vismaygamit16@gmail.com">vismaygamit16@gmail.com</a></span>
                         </p>
                         <p>
-                          // <span className="title-s">Phone: </span>{" "}
-                          <span><a href="tel:+919601550116">View Resume</a></span>
+                          <span className="title-s">Phone: </span>{" "}
+                          <span><a href="tel:+919601550116">+91 9601550116</a></span>
                         </p>
   <p>
-                          <span className="title-s">View Resume: </span>{" "}
-                          <span><a href="https://drive.google.com/file/d/1g1yVrI5hRcBfN4SaufccGv-s6EuALR-0/view">+91 9601550116</a></span>
+                          // <span className="title-s">View Resume: </span>{" "}
+                          <span><a href="https://drive.google.com/file/d/1g1yVrI5hRcBfN4SaufccGv-s6EuALR-0/view">View Resume</a></span>
                         </p>
                       </div>
                     </div>
