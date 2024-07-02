@@ -13,7 +13,7 @@ const about = (props) => {
                     <div className="col-sm-6 col-md-5">
                       <div className="about-img">
                         <img
-                          src="assets/img/testimonial-2.jpg"
+                          src="assets/img/testimonial-2.png"
                           className="img-fluid rounded b-shadow-a"
                           alt=""
                         />
