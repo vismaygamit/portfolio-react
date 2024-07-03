@@ -1,5 +1,7 @@
 import React from "react";
 import "./about.css";
+import {isMobile} from 'react-device-detect';
+
 const about = (props) => {
   return (
     <section id="about" className="about-mf sect-pt4 route">
@@ -13,7 +15,7 @@ const about = (props) => {
                     <div className="col-sm-6 col-md-5">
                       <div className="about-img">
                         <img
-                          src="assets/img/testimonial-2.png"
+                          src={isMobile ? "assets/img/testimonial-2.png" : "assets/img/testimonial-2per.png"}
                           className="img-fluid rounded b-shadow-a"
                           alt=""
                         />

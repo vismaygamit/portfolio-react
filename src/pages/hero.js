@@ -1,11 +1,13 @@
 import React from "react";
 import Typed from 'react-typed';
+import {isMobile} from 'react-device-detect';
+
 const hero = (props) => {
   return (
     <div
       id="hero"
       className="hero route bg-image"
-      style={{ backgroundImage: `url(assets/img/hero-bg.png)` }}
+      style={{backgroundImage : isMobile ?   `url(assets/img/hero-bg1.png)` : `url(assets/img/hero-bg.png)` }}
     >
       <div className="overlay-itro" />
       <div className="hero-content display-table">
