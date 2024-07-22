@@ -53,6 +53,17 @@ const fullstack = (props) => {
                         alt=""
                       />
                       <img
+                        src="assets/img/frontend/material.svg"
+                        className="h-50 img-fluid rounded techstack b-shadow-a"
+                        alt=""
+                      />
+                      <img
+                        src="assets/img/frontend/antdesign.svg"
+                        width="10%"
+                        className="h-50 img-fluid rounded techstack b-shadow-a"
+                        alt=""
+                      />
+                      <img
                         src="assets/img/frontend/angular.svg"
                         className="h-50 img-fluid rounded techstack b-shadow-a"
                         alt=""
@@ -63,23 +74,26 @@ const fullstack = (props) => {
                         alt=""
                       />
                       <img
-                        src="assets/img/frontend/material.svg"
-                        className="h-50 img-fluid rounded techstack b-shadow-a"
-                        alt=""
-                      />
-                      <img
                         src="assets/img/backend/next-js.svg"
                         className="img-fluid rounded techstack b-shadow-a"
                         alt=""
                       />
-                    </span>
-                  </div>
-                  <div>
-                    <h5>Dev Tools</h5>
-                    <span>
                       <img
-                        src="assets/img/editor/vscode.svg"
-                        className="img-fluid rounded techstack b-shadow-a"
+                        src="assets/img/frontend/electronjs.png"
+                        width="10%"
+                        className="h-50 img-fluid rounded techstack b-shadow-a"
+                        alt=""
+                      />
+                        <img
+                          src="assets/img/frontend/web3js.jpg"
+                          width="15%"
+                          className="img-fluid rounded techstack b-shadow-a"
+                          alt=""
+                        />
+                      <img
+                        src="assets/img/frontend/shopify.svg"
+                        width="10%"
+                        className="h-50 img-fluid rounded techstack b-shadow-a"
                         alt=""
                       />
                     </span>
@@ -137,14 +151,28 @@ const fullstack = (props) => {
                         className="img-fluid rounded techstack b-shadow-a"
                         alt=""
                       />
-                    </span>
-                  </div>
-                  <div>
-                    <h5>Dev Tools</h5>
-                    <span>
-                      {" "}
                       <img
-                        src="assets/img/editor/vscode.svg"
+                        src="assets/img/backend/woocommerce.svg"
+                        className="img-fluid rounded techstack b-shadow-a"
+                        alt=""
+                      />
+                      <img
+                        src="assets/img/backend/whatsapp.png"
+                        className="img-fluid rounded techstack b-shadow-a"
+                        alt=""
+                      />
+                        <img
+                        src="assets/img/backend/aws-lambda.svg"
+                        className="img-fluid rounded techstack b-shadow-a"
+                        alt=""
+                      />
+                      <img
+                        src="assets/img/backend/aws-sns.svg"
+                        className="img-fluid rounded techstack b-shadow-a"
+                        alt=""
+                      />
+                      <img
+                        src="assets/img/backend/aws-sqs.svg"
                         className="img-fluid rounded techstack b-shadow-a"
                         alt=""
                       />
