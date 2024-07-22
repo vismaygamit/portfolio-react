@@ -105,10 +105,7 @@ const about = (props) => {
                       freelancer.
                     </p>
                     <p className="lead text-align-justify">
-                      I am a Fullstack Developer. I enjoy building everything
-                      from small business sites to rich interactive web apps. I
-                      am always hungry for learning new stuff and taking on new
-                      challenges.
+                      I am a Full-stack developer with 4 years of experience in building robust web applications. Proficient in both front-end and back-end development, delivering end-to-end solutions. Strong problem-solving and teamwork skills.
                     </p>
                     <p className="lead text-justify">
                       if you are a business seeking a web presence or an
