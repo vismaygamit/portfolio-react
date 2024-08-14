@@ -157,9 +157,11 @@ const fullstack = (props) => {
                         alt=""
                       />
                       <img
-                        src="assets/img/backend/whatsapp.png"
+                        src="assets/img/backend/whatsapp.svg"
                         className="img-fluid rounded techstack b-shadow-a"
                         alt=""
+                        height="70px"
+                        width="100px"
                       />
                         <img
                         src="assets/img/backend/aws-lambda.svg"

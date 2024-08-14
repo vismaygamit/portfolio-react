@@ -47,7 +47,7 @@ const Portfolio = (props) => {
     },
     {
       title: "WhatsApp Automation for Ecommerce",
-      url: "https://youtu.be/jb7j_0qH8G4",
+      url: "https://youtu.be/BDrKJh0DtJE?si=AGl2F50k_-KzncSQ",
       path: "assets/img/project6/sc1.jpg",
     },
   ];
