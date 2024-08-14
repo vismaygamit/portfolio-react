@@ -35,13 +35,18 @@ const Portfolio = (props) => {
       url: "https://youtu.be/2SNtHqf3aPQ",
       path: "assets/img/project4/sc1.jpg",
     },
+    // {
+    //   title: "Gamit Dj-Remix",
+    //   url: "https://www.gamitdjremix.in/",
+    //   path: "assets/img/project5/sc1.jpg",
+    // },
     {
-      title: "Gamit Dj-Remix",
-      url: "https://www.gamitdjremix.in/",
+      title: "Task Management System",
+      url: "https://youtu.be/jb7j_0qH8G4",
       path: "assets/img/project5/sc1.jpg",
     },
     {
-      title: "Task Management System",
+      title: "WhatsApp Automation for Ecommerce",
       url: "https://youtu.be/jb7j_0qH8G4",
       path: "assets/img/project6/sc1.jpg",
     },
