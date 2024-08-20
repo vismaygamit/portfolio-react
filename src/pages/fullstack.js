@@ -158,7 +158,7 @@ const fullstack = (props) => {
                       />
                       <img
                         src="assets/img/backend/whatsapp.svg"
-                        className="img-fluid rounded techstack b-shadow-a"
+                        className="whastsapp img-fluid rounded techstack b-shadow-a"
                         alt=""
                         height="70px"
                         width="100px"
