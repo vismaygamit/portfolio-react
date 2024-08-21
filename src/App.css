@@ -881,6 +881,7 @@ a:hover {
 # Services
 --------------------------------------------------------------*/
 .service-box {
+  max-height: 77%;
   background-color: #fff;
   padding: 2.5rem 1.3rem;
   border-radius: 1rem;

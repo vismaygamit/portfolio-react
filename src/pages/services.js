@@ -17,7 +17,7 @@ return (
       </div>
     </div>
     <div className="row">
-      <div className="col-md-6">
+      <div className="col-md-3">
         <div className="service-box">
           <div className="service-ico">
             <span className="ico-circle"><i className="bi bi-briefcase" /></span>
@@ -32,28 +32,44 @@ return (
           </div>
         </div>
       </div>
-      {/* <div className="col-md-4">
-        <div className="service-box">
-          <div className="service-ico">
-            <span className="ico-circle"><i className="bi bi-code-square" /></span>
-          </div>
-          <div className="service-content">
-            <h2 className="s-title">Web Development</h2>
-            <p className="s-description text-center">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-              provident vitae! Magni
-              tempora perferendis eum non provident.
-            </p>
-          </div>
-        </div>
-      </div> */}
-      <div className="col-md-6">
+     
+      <div className="col-md-3">
         <div className="service-box">
           <div className="service-ico">
             <span className="ico-circle"><i className="bi bi-bar-chart" /></span>
           </div>
           <div className="service-content">
             <h2 className="s-title">Responsive Design</h2>
+            {/* <p className="s-description text-center">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
+              provident vitae! Magni
+              tempora perferendis eum non provident.
+            </p> */}
+          </div>
+        </div>
+      </div>
+      <div className="col-md-3">
+        <div className="service-box">
+          <div className="service-ico">
+            <span className="ico-circle"><i className="bi bi-megaphone" /></span>
+          </div>
+          <div className="service-content">
+            <h2 className="s-title">Social Media Marketing</h2>
+            {/* <p className="s-description text-center">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
+              provident vitae! Magni
+              tempora perferendis eum non provident.
+            </p> */}
+          </div>
+        </div>
+      </div>
+      <div className="col-md-3">
+        <div className="service-box">
+          <div className="service-ico">
+            <span className="ico-circle"><i className="bi bi-whatsapp" /></span>
+          </div>
+          <div className="service-content">
+            <h2 className="s-title">WhatsApp Automation</h2>
             {/* <p className="s-description text-center">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
               provident vitae! Magni
