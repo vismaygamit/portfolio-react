@@ -50,6 +50,16 @@ const Portfolio = (props) => {
       url: "https://youtu.be/BDrKJh0DtJE?si=AGl2F50k_-KzncSQ",
       path: "assets/img/project6/sc1.jpg",
     },
+    {
+      title: "Beauty Care Appointment Booking",
+      url: "https://youtu.be/O6-iZcjmIks",
+      path: "assets/img/project7/sc1.jpg",
+    },
+    {
+      title: "Dental Clinic Appointment Booking",
+      url: "https://youtu.be/fBkqHmMzETc",
+      path: "assets/img/project8/sc1.jpg",
+    },
   ];
   const [indexOfImages, setIndexOfImages] = useState(0);
   const [indexOfProject, setIndexofProject] = useState(0);
@@ -80,6 +90,7 @@ const Portfolio = (props) => {
                       onClick={() => {
                         setIndexofProject(index + 1);
                         setShowModal(true);
+                        indexOfProject == 6 && setIndexOfImages(0)
                       }}
                       alt=""
                       className="img-fluid img-auto"
@@ -127,16 +138,17 @@ const Portfolio = (props) => {
           mainSrc={
             "assets/img/project" +
             indexOfProject +
-            "/" +
-            arrOfImages[indexOfImages]
+            "/" + 
+            arrOfImages[indexOfProject != 6 && indexOfProject!= 7 && indexOfProject!= 8 ? indexOfImages : 0]
           }
-          nextSrc={
+          nextSrc={indexOfProject != 6 && indexOfProject!= 7 && indexOfProject!= 8 &&
+
             "assets/img/project" +
             indexOfProject +
             "/" +
             arrOfImages[(indexOfImages + 1) % arrOfImages.length]
           }
-          prevSrc={
+          prevSrc={indexOfProject != 6 && indexOfProject!= 7 && indexOfProject!= 8 && 
             "assets/img/project" +
             indexOfProject +
             "/" +
