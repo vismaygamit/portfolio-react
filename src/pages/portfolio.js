@@ -16,24 +16,29 @@ const arrOfImages = [
 const Portfolio = (props) => {
   let project_details = [
     {
-      title: "Super Chain (Dropshipping)",
+      title: "Glossier Beauty Store",
       url: "https://dropship.super-chain.tech/",
       path: "assets/img/project1/sc1.jpg",
     },
     {
+      title: "Super Chain (Dropshipping)",
+      url: "https://dropship.super-chain.tech/",
+      path: "assets/img/project2/sc1.jpg",
+    },
+    {
       title: "Chimo Motel",
       url: "https://chimomotel.com/",
-      path: "assets/img/project2/sc1.jpg",
+      path: "assets/img/project3/sc1.jpg",
     },
     {
       title: "Shorin Kempo Karate",
       url: "https://shorinkempokarate.in/",
-      path: "assets/img/project3/sc1.jpg",
+      path: "assets/img/project4/sc1.jpg",
     },
     {
       title: "E-learning",
       url: "https://youtu.be/2SNtHqf3aPQ",
-      path: "assets/img/project4/sc1.jpg",
+      path: "assets/img/project5/sc1.jpg",
     },
     // {
     //   title: "Gamit Dj-Remix",
@@ -43,22 +48,22 @@ const Portfolio = (props) => {
     {
       title: "Task Management System",
       url: "https://youtu.be/jb7j_0qH8G4",
-      path: "assets/img/project5/sc1.jpg",
+      path: "assets/img/project6/sc1.jpg",
     },
     {
       title: "WhatsApp Automation for Ecommerce",
       url: "https://youtu.be/BDrKJh0DtJE?si=AGl2F50k_-KzncSQ",
-      path: "assets/img/project6/sc1.jpg",
-    },
-    {
-      title: "Beauty Care Appointment Booking",
-      url: "https://youtu.be/O6-iZcjmIks",
       path: "assets/img/project7/sc1.jpg",
     },
     {
-      title: "Dental Clinic Appointment Booking",
-      url: "https://youtu.be/fBkqHmMzETc",
+      title: "Appointment Booking For Beauty Care",
+      url: "https://youtu.be/O6-iZcjmIks",
       path: "assets/img/project8/sc1.jpg",
+    },
+    {
+      title: "Appointment Booking For Dental Clinic",
+      url: "https://youtu.be/fBkqHmMzETc",
+      path: "assets/img/project9/sc1.jpg",
     },
   ];
   const [indexOfImages, setIndexOfImages] = useState(0);
@@ -90,7 +95,7 @@ const Portfolio = (props) => {
                       onClick={() => {
                         setIndexofProject(index + 1);
                         setShowModal(true);
-                        indexOfProject == 6 && setIndexOfImages(0)
+                        indexOfProject == 7 && setIndexOfImages(0)
                       }}
                       alt=""
                       className="img-fluid img-auto"
@@ -139,16 +144,16 @@ const Portfolio = (props) => {
             "assets/img/project" +
             indexOfProject +
             "/" + 
-            arrOfImages[indexOfProject != 6 && indexOfProject!= 7 && indexOfProject!= 8 ? indexOfImages : 0]
+            arrOfImages[indexOfProject != 7 && indexOfProject!= 8 && indexOfProject!= 9 ? indexOfImages : 0]
           }
-          nextSrc={indexOfProject != 6 && indexOfProject!= 7 && indexOfProject!= 8 &&
+          nextSrc={indexOfProject != 7 && indexOfProject!= 8 && indexOfProject!= 9 &&
 
             "assets/img/project" +
             indexOfProject +
             "/" +
             arrOfImages[(indexOfImages + 1) % arrOfImages.length]
           }
-          prevSrc={indexOfProject != 6 && indexOfProject!= 7 && indexOfProject!= 8 && 
+          prevSrc={indexOfProject != 7 && indexOfProject!= 8 && indexOfProject!= 9 && 
             "assets/img/project" +
             indexOfProject +
             "/" +
