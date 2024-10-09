@@ -105,7 +105,7 @@ const about = (props) => {
                       freelancer.
                     </p>
                     <p className="lead text-align-justify">
-                      I am a Full-stack developer with 4.5+ years of experience in building robust web applications. Proficient in both front-end and back-end development, delivering end-to-end solutions. Strong problem-solving and teamwork skills.
+                      I am a Full-stack developer with 5.5+ years of experience in building robust web applications. Proficient in both front-end and back-end development, delivering end-to-end solutions. Strong problem-solving and teamwork skills.
                     </p>
                     <p className="lead text-justify">
                       if you are a business seeking a web presence or an
