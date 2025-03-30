@@ -111,6 +111,8 @@ const fullstack = (props) => {
                   <div>
                     <h5>Technology</h5>
                     <span>
+                  
+
                       <img
                         src="assets/img/backend/php.svg"
                         className="h-50 img-fluid rounded techstack b-shadow-a"
@@ -177,6 +179,27 @@ const fullstack = (props) => {
                         src="assets/img/backend/aws-sqs.svg"
                         className="img-fluid rounded techstack b-shadow-a"
                         alt=""
+                      />
+                        <img
+                        src="assets/img/backend/openai.svg"
+                        className="h-50 img-fluid rounded techstack b-shadow-a"
+                        alt=""
+                         height="55px"
+                        width="55px"
+                      />
+                      <img
+                        src="assets/img/backend/prisma.svg"
+                        className="h-50 img-fluid rounded techstack b-shadow-a"
+                        alt=""
+                         height="55px"
+                        width="55px"
+                      />
+                      <img
+                        src="assets/img/backend/nestjs.svg"
+                        className="h-50 img-fluid rounded techstack b-shadow-a"
+                        alt=""
+                         height="55px"
+                        width="55px"
                       />
                     </span>
                   </div>

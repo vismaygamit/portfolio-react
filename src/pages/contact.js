@@ -103,42 +103,42 @@ const contact = (props) => {
                   <div className="socials">
                     <ul>
                       <li>
-                        <a href="https://www.linkedin.com/in/vismay-gamit-284790121/">
+                        <a href="https://www.linkedin.com/in/vismay-gamit-284790121/" target="_blank">
                           <span className="ico-circle">
                             <i className="bi bi-linkedin" />
                           </span>
                         </a>
                       </li>
                       <li>
-                        <a href="https://github.com/vismaygamit">
+                        <a href="https://github.com/vismaygamit" target="_blank">
                           <span className="ico-circle">
                             <i className="bi bi-github" />
                           </span>
                         </a>
                       </li>
                       <li>
-                        <a href="https://www.facebook.com/vismaygamit/">
+                        <a href="https://www.facebook.com/vismaythecoder/" target="_blank">
                           <span className="ico-circle">
                             <i className="bi bi-facebook" />
                           </span>
                         </a>
                       </li>
                       <li>
-                        <a href="https://www.instagram.com/vismaygamit/">
+                        <a href="https://www.instagram.com/vismaythecoder/" target="_blank">
                           <span className="ico-circle">
                             <i className="bi bi-instagram" />
                           </span>
                         </a>
                       </li>
                       <li>
-                        <a href="https://twitter.com/vismay_gamit">
+                        <a href="https://twitter.com/vismay_gamit" target="_blank">
                           <span className="ico-circle">
                             <i className="bi bi-twitter" />
                           </span>
                         </a>
                       </li>
                       <li>
-                        <a href="https://wa.me/+919601550116">
+                        <a href="https://wa.me/+919601550116" target="_blank">
                           <span className="ico-circle">
                             <i className="bi bi-whatsapp" />
                           </span>
