@@ -1,5 +1,6 @@
 import React from "react";
 import Typed from 'react-typed';
+import { ReactTyped } from "react-typed";
 import {isMobile} from 'react-device-detect';
 
 const hero = (props) => {
@@ -16,7 +17,7 @@ const hero = (props) => {
             <h1 className="hero-title mb-4">I am Vismay Gamit</h1>
             
             <p className="hero-subtitle">
-            <Typed
+            <ReactTyped
                     strings={['Full Stack Developer', 'Front-end Developer', 'Back-end Developer', 'Freelancer', 'Software Developer', 'Youtuber', 'Video Editor']}
                     typeSpeed={40}
                     backSpeed={50}
