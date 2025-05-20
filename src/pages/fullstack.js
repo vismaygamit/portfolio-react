@@ -187,6 +187,27 @@ const fullstack = (props) => {
                          height="55px"
                         width="55px"
                       />
+                       <img
+                        src="assets/img/backend/langchain.svg"
+                        className="h-70 img-fluid rounded techstack b-shadow-a"
+                        alt=""
+                         height="55px"
+                        width="55px"
+                      />
+                      <img
+                        src="assets/img/backend/huggingface.svg"
+                        className="h-50 img-fluid rounded techstack b-shadow-a"
+                        alt=""
+                         height="55px"
+                        width="55px"
+                      />
+                      <img
+                        src="assets/img/backend/pinecone.svg"
+                        className="h-80 img-fluid rounded techstack b-shadow-a"
+                        alt=""
+                         height="55px"
+                        width="55px"
+                      />
                       <img
                         src="assets/img/backend/prisma.svg"
                         className="h-50 img-fluid rounded techstack b-shadow-a"

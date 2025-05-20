@@ -7,12 +7,14 @@ import Testimonials from "./testimonials";
 import Contact from "./contact";
 import Fullstack from "./fullstack";
 import Pricing from "./pricing";
+import Product from "./prodcut";
 
 const main = (props) => {
   return (
     <main id="main">
       <About />
       <Fullstack />
+      <Product />
       <Services />
       <Counter />
       <Portfolio />

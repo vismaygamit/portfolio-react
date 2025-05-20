@@ -15,7 +15,7 @@ const testimonials = (props) => {
         "I have been working with Gamit since day 1 of my startup ! He is very responsible of the task, providing very helpful feedbacks on different development progress !Love to work with Gamit so much !!!",
     },
     {
-      name: "Nitin Ashok, Taxbotic &#127464 &#127462",
+      name: "Nitin Ashok, Taxbotic 🇨🇦",
       img: "customer-review.svg",
       review:
         "Great Work by Vismay. We had a very complex project and Vismay delivered on it. Highly recommended!",
@@ -31,6 +31,12 @@ const testimonials = (props) => {
       img: "customer-review.svg",
       review:
         "Vismay helped me with a lot of my WhatsApp automations and APIs. So I highly recommend to anyone out there. He helped me with a major part of my project like the development side Like it really gave me till last steps I need to finish it. So anyone out there if you need this man, like I highly recommend him. He's very good.",
+    },
+    {
+      name: "Samir Kerchiched, mybeautifulmorocco.com, 🇬🇧",
+      img: "customer-review.svg",
+      review:
+        "Vismay has delivered above and beyond my expectations and very responsive even with the time difference. He has resolved my json code in no time and improve it without asking him. I highly recommend Vismay.",
     },
   ];
   return (

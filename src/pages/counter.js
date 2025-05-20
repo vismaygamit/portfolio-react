@@ -19,7 +19,7 @@ const portfolio = (props) => {
               <div className="counter-num">
                 <p
                   data-purecounter-start={0}
-                  data-purecounter-end={50}
+                  data-purecounter-end={100}
                   data-purecounter-duration={1}
                   className="counter purecounter"
                 />
@@ -48,7 +48,7 @@ const portfolio = (props) => {
               <div className="counter-num">
                 <p
                   data-purecounter-start={0}
-                  data-purecounter-end={30}
+                  data-purecounter-end={100}
                   data-purecounter-duration={1}
                   className="counter purecounter"
                 />
