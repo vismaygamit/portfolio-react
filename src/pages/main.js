@@ -18,7 +18,7 @@ const main = (props) => {
       <Services />
       <Counter />
       <Portfolio />
-      <Pricing />
+      {/* <Pricing /> */}
       <Testimonials />
       <Contact />
     </main>

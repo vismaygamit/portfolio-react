@@ -29,7 +29,7 @@ const Product = (props) => {
   const [showModal, setShowModal] = useState(false);
 
   return (
-    <section id="work" className="portfolio-mf sect-pt4 route">
+    <section id="product" className="portfolio-mf sect-pt4 route">
       <div className="container">
         <div className="row">
           <div className="col-sm-12">
