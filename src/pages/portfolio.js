@@ -95,7 +95,7 @@ const Portfolio = (props) => {
                       onClick={() => {
                         setIndexofProject(index + 1);
                         setShowModal(true);
-                        indexOfProject == 7 && setIndexOfImages(0)
+                        indexOfProject == 7 && setIndexOfImages(0);
                       }}
                       alt=""
                       className="img-fluid img-auto"
@@ -129,12 +129,30 @@ const Portfolio = (props) => {
             {/* <div className="title-box"> */}
             {/* <h3 className="title-left">Portfolio</h3> */}
             <p className="w-title">
-              <h4>Unfortunately, can't show all projects due to Non-Disclosure Agreement (NDA)</h4>
+              <h4>
+                Unfortunately, can't show all projects due to Non-Disclosure
+                Agreement (NDA)
+              </h4>
+            </p>
+            <p>
+              <button
+                type="button"
+                className="btn btn-primary text-white"
+                style={{ marginRight: "7px" }}
+              >
+                <a
+                  href="https://calendly.com/vismaygamit/quick-call-for-requirement-understanding"
+                  target="_blank"
+                  className="text-white text-decoration-none"
+                >
+                  Book a call
+                </a>
+              </button>
+              for the requirement understanding.
             </p>
             {/* </div> */}
           </div>
         </div>
-
       </div>
 
       {showModal && (
@@ -143,23 +161,32 @@ const Portfolio = (props) => {
           mainSrc={
             "assets/img/project" +
             indexOfProject +
-            "/" + 
-            arrOfImages[indexOfProject != 7 && indexOfProject!= 8 && indexOfProject!= 9 ? indexOfImages : 0]
-          }
-          nextSrc={indexOfProject != 7 && indexOfProject!= 8 && indexOfProject!= 9 &&
-
-            "assets/img/project" +
-            indexOfProject +
-            "/" +
-            arrOfImages[(indexOfImages + 1) % arrOfImages.length]
-          }
-          prevSrc={indexOfProject != 7 && indexOfProject!= 8 && indexOfProject!= 9 && 
-            "assets/img/project" +
-            indexOfProject +
             "/" +
             arrOfImages[
-            (indexOfImages + arrOfImages.length - 1) % arrOfImages.length
+              indexOfProject != 7 && indexOfProject != 8 && indexOfProject != 9
+                ? indexOfImages
+                : 0
             ]
+          }
+          nextSrc={
+            indexOfProject != 7 &&
+            indexOfProject != 8 &&
+            indexOfProject != 9 &&
+            "assets/img/project" +
+              indexOfProject +
+              "/" +
+              arrOfImages[(indexOfImages + 1) % arrOfImages.length]
+          }
+          prevSrc={
+            indexOfProject != 7 &&
+            indexOfProject != 8 &&
+            indexOfProject != 9 &&
+            "assets/img/project" +
+              indexOfProject +
+              "/" +
+              arrOfImages[
+                (indexOfImages + arrOfImages.length - 1) % arrOfImages.length
+              ]
           }
           onCloseRequest={() => setShowModal(false)}
           onMovePrevRequest={() =>
