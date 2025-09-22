@@ -65,6 +65,16 @@ const Portfolio = (props) => {
       url: "https://youtu.be/fBkqHmMzETc",
       path: "assets/img/project9/sc1.jpg",
     },
+    {
+      title: "Support Assistant (Chatbot)",
+      url: "https://youtu.be/6ICix7uQVaE",
+      path: "assets/img/project10/sc1.jpg",
+    },
+    {
+      title: "Smart Multi AI Agent (Chatbot)",
+      url: "https://youtu.be/IRnkIFvTNWU",
+      path: "assets/img/project11/sc1.jpg",
+    },
   ];
   const [indexOfImages, setIndexOfImages] = useState(0);
   const [indexOfProject, setIndexofProject] = useState(0);
