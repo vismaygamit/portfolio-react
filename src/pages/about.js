@@ -40,7 +40,7 @@ const about = (props) => {
                           <span><a href="tel:+919601550116">+91 9601550116</a></span>
                         </p>
   <p>
-                          <span><a href="https://drive.google.com/file/d/1oksxGZLCT7Gpb9BZ8Fkr31aFyd6nH4Wg" target="_blank">View Resume</a></span>
+                          <span><a href="https://drive.google.com/file/d/1yO1I8XzCLGpTFSNvPYYUmwXY4Adpx-71/view?usp=sharing" target="_blank">View Resume</a></span>
                         </p>
                       </div>
                     </div>
