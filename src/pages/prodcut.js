@@ -19,7 +19,7 @@ const Product = (props) => {
     },
     {
       title: "WhatsApp Automation boilerplate built with Node.js | Official Whatsapp Cloud API",
-      url: "#",
+      url: "https://youtu.be/fszdXZ8sOA0",
       path: "assets/img/product2/sc1.jpg",
       paymenturl: "https://www.paypal.com/ncp/payment/YN48KZMLYM6R8"
     }
