@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import {isMobile} from 'react-device-detect';
+import { isMobile } from 'react-device-detect';
 
 const about = (props) => {
   return (
@@ -39,10 +39,23 @@ const about = (props) => {
                           <span className="title-s">Phone: </span>{" "}
                           <span><a href="tel:+919601550116">+91 9601550116</a></span>
                         </p>
-  <p>
+                        <p>
                           <span><a href="https://drive.google.com/file/d/1yO1I8XzCLGpTFSNvPYYUmwXY4Adpx-71/view?usp=sharing" target="_blank">View Resume</a></span>
                         </p>
                       </div>
+                    </div>
+                      <h4>
+                        Hire me on:
+                      </h4>
+                    <div className="col-sm-6 col-md-5">
+                      <a href="https://www.upwork.com/freelancers/~0159d5f9b1a1bd1b4d" target="_blank">
+                        <img src="assets/img/upwork.svg" className="freelanceupwork" alt="upwork" />
+                      </a>
+                    </div>
+                    <div className="col-sm-6 col-md-5">
+                      <a href="https://www.fiverr.com/vismaygamit" target="_blank">
+                        <img src="assets/img/fiverr.svg" className="freelancefiverr" alt="fiverr" />
+                      </a>
                     </div>
                   </div>
                   {/* <div className="skill-mf">
@@ -107,10 +120,10 @@ const about = (props) => {
                     <p className="lead text-align-justify">
                       👋 Hi! I’m Vismay Gamit, an India-based Freelance Full-Stack & AI Developer with 6+ years of experience building scalable web and AI-powered applications.
 
-I specialize in both front-end and back-end development, delivering complete end-to-end solutions using Node.js, Express.js, NestJS, React, and Next.js. I also work with AI tools like LangChain, RAG, and OpenAI API to create intelligent chatbots, agents, and automation workflows.
+                      I specialize in both front-end and back-end development, delivering complete end-to-end solutions using Node.js, Express.js, NestJS, React, and Next.js. I also work with AI tools like LangChain, RAG, and OpenAI API to create intelligent chatbots, agents, and automation workflows.
 
-Passionate about blending AI and automation using tools like n8n and WhatsApp API, I deliver efficient, high-quality solutions that drive results.
-</p>
+                      Passionate about blending AI and automation using tools like n8n and WhatsApp API, I deliver efficient, high-quality solutions that drive results.
+                    </p>
                     <p className="lead text-justify">
                       💼 Whether you’re a business looking to establish a strong web presence or an employer seeking a skilled developer to bring your ideas to life, I’d love to <a href="#contact">connect</a> and collaborate!
                     </p>
