@@ -105,12 +105,12 @@ const about = (props) => {
                       freelancer.
                     </p>
                     <p className="lead text-align-justify">
-                      👋 Hello! I’m Vismay Gamit, an India-based Freelance Full-Stack & AI Developer with over 6 years of experience in building robust, scalable, and intelligent web applications.<br/><br/>
+                      👋 Hi! I’m Vismay Gamit, an India-based Freelance Full-Stack & AI Developer with 6+ years of experience building scalable web and AI-powered applications.
 
-I specialize in both front-end and back-end development, delivering complete end-to-end solutions using Node.js, Express.js, NestJS, React, and Next.js. My expertise also extends into the world of AI development, where I work with LangChain, RAG (Retrieval-Augmented Generation), and the OpenAI API to create AI chatbots, AI agents, and automation workflows.
-<br/><br/>
-I’m passionate about integrating AI and automation into modern applications — leveraging tools like n8n and WhatsApp API to build smart, efficient, and connected systems. Known for my strong problem-solving abilities, collaborative mindset, and commitment to quality, I aim to deliver impactful solutions that drive real business results.
-                    </p>
+I specialize in both front-end and back-end development, delivering complete end-to-end solutions using Node.js, Express.js, NestJS, React, and Next.js. I also work with AI tools like LangChain, RAG, and OpenAI API to create intelligent chatbots, agents, and automation workflows.
+
+Passionate about blending AI and automation using tools like n8n and WhatsApp API, I deliver efficient, high-quality solutions that drive results.
+</p>
                     <p className="lead text-justify">
                       💼 Whether you’re a business looking to establish a strong web presence or an employer seeking a skilled developer to bring your ideas to life, I’d love to <a href="#contact">connect</a> and collaborate!
                     </p>
